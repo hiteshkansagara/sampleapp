@@ -13,6 +13,6 @@ spec:
     spec:
       containers:
       - name: sample-app
-        image: alpine/git:v2.49.0 # nginx
+        image: hello-world:nanoserver-ltsc2025 # nginx
         ports:
         - containerPort: 80
