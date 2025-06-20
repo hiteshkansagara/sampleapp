@@ -13,6 +13,6 @@ spec:
     spec:
       containers:
       - name: sample-app
-        image: alpine # nginx
+        image: stefanwalther/docker-test # nginx
         ports:
         - containerPort: 80
