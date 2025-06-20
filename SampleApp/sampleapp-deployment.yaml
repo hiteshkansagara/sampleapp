@@ -13,6 +13,6 @@ spec:
     spec:
       containers:
       - name: sample-app
-        image: hello-world:nanoserver-ltsc2025 # nginx
+        image: hello-world:linux # nginx
         ports:
         - containerPort: 80
