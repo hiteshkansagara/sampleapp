@@ -13,6 +13,6 @@ spec:
     spec:
       containers:
       - name: sample-app
-        image: hello-world:linux # nginx
+        image: alpine # nginx
         ports:
         - containerPort: 80
