@@ -11,8 +11,11 @@ spec:
       labels:
         app: sample-app
     spec:
-      containers:
-      - name: sample-app
-        image: hiteshkansagara712/kubernetes:latest        
+      containers:      
+      - name: sample-app      
+        image: hiteshkansagara712/kubernetes:latest
+        imagePullPolicy: Always           
         ports:
-        - containerPort: 80
+        - containerPort: 80   
+      imagePullSecrets:
+      - name:  sampleapp-secret      
