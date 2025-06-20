@@ -14,5 +14,8 @@ spec:
       containers:      
       - name: sample-app      
         image: hiteshkansagara712/kubernetes:latest
+        imagePullPolicy: IfNotPresent
         ports:
-        - containerPort: 80   
+        - containerPort: 80 
+      imagePullSecrets:
+        - name:  sampleapp-secret  
