@@ -15,4 +15,4 @@ spec:
       - name: sample-app
         image: stefanwalther/docker-test # nginx
         ports:
-        - containerPort: 80
+        - containerPort: 3000
